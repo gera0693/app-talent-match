@@ -1,0 +1,264 @@
+<!-- <mat-card>
+  <mat-card-title>Select Job Position</mat-card-title>
+
+  <mat-form-field appearance="outline" style="width:100%">
+    <mat-label>Job</mat-label>
+    <mat-select (selectionChange)="selectedJobId.set($event.value)">
+      <mat-option *ngFor="let job of data.jobs()" [value]="job.id">
+        {{ job.title }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+</mat-card>
+
+<br />
+
+<mat-card *ngFor="let match of matches()">
+  <mat-card-title>
+    <mat-icon>person</mat-icon>
+    {{ match.employee.name }}
+  </mat-card-title>
+
+  <mat-progress-bar
+    mode="determinate"
+    [value]="match.percentage"
+    [color]="match.percentage >= 70 ? 'primary' : 'warn'">
+  </mat-progress-bar>
+
+  <p>{{ match.percentage }}% skill match</p>
+</mat-card> -->
+
+<!-- <mat-tab-group> -->
+
+  <!-- ================= MATCHING TAB ================= -->
+  <!-- <mat-tab label="Skill Matching">
+
+    <div class="section">
+
+      <mat-card>
+        <mat-card-title>Select Job Position</mat-card-title>
+
+        <mat-form-field appearance="outline" style="width:100%">
+          <mat-label>Job</mat-label>
+          <mat-select (selectionChange)="selectedJobId.set($event.value)">
+            <mat-option *ngFor="let job of data.jobs()" [value]="job.id">
+              {{ job.title }}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+      </mat-card>
+
+      <div class="grid">
+        <mat-card class="employee-card" *ngFor="let match of matches()">
+
+          <img
+            class="avatar"
+            src="https://i.pravatar.cc/150?u={{match.employee.id}}"
+            alt="avatar" />
+
+          <h3>{{ match.employee.name }}</h3>
+
+          <mat-progress-bar
+            mode="determinate"
+            [value]="match.percentage"
+            [color]="match.percentage >= 70 ? 'primary' : 'warn'">
+          </mat-progress-bar>
+
+          <small>{{ match.percentage }}% match</small>
+
+        </mat-card>
+      </div>
+
+    </div>
+  </mat-tab> -->
+
+  <!-- ================= EMPLOYEES TAB ================= -->
+  <!-- <mat-tab label="Employees">
+
+    <div class="section">
+
+      <div class="header-row">
+        <h2>Employees</h2>
+        <button mat-raised-button color="primary">
+          <mat-icon>add</mat-icon>
+          Add Employee
+        </button>
+      </div>
+
+      <mat-list>
+        <mat-list-item *ngFor="let emp of data.employees()">
+          <mat-icon matListIcon>person</mat-icon>
+          <h4 matLine>{{ emp.name }}</h4>
+          <p matLine>Skills: {{ emp.skillIds.length }}</p>
+        </mat-list-item>
+      </mat-list>
+
+    </div>
+  </mat-tab> -->
+
+  <!-- ================= JOBS TAB ================= -->
+  <!-- <mat-tab label="Job Positions">
+
+    <div class="section">
+
+      <div class="header-row">
+        <h2>Job Positions</h2>
+        <button mat-raised-button color="primary">
+          <mat-icon>add</mat-icon>
+          Add Job
+        </button>
+      </div>
+
+      <mat-list>
+        <mat-list-item *ngFor="let job of data.jobs()">
+          <mat-icon matListIcon>work</mat-icon>
+          <h4 matLine>{{ job.title }}</h4>
+          <p matLine>Required skills: {{ job.skillIds.length }}</p>
+        </mat-list-item>
+      </mat-list>
+
+    </div>
+  </mat-tab>
+
+</mat-tab-group> -->
+
+<mat-tab-group animationDuration="300ms">
+
+  <!-- ================= MATCHING TAB ================= -->
+  <mat-tab label="Skill Matching">
+
+    <div class="section">
+
+      <!-- Job selector -->
+      <mat-card class="job-selector">
+        <div class="job-header">
+          <div>
+            <h2>Skill Matching</h2>
+            <p>Select a job position to find the best internal candidates</p>
+          </div>
+        </div>
+
+        <mat-form-field appearance="outline" class="full-width">
+          <mat-label>Job Position</mat-label>
+          <mat-select (selectionChange)="selectedJobId.set($event.value)">
+            <mat-option *ngFor="let job of data.jobs()" [value]="job.id">
+              {{ job.title }}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+      </mat-card>
+
+      <!-- Results -->
+      <div class="grid" *ngIf="matches().length; else emptyState">
+        <mat-card class="employee-card" *ngFor="let match of matches()">
+
+          <mat-card-header>
+            <div mat-card-avatar class="avatar-wrapper">
+              <img
+                src="https://i.pravatar.cc/150?u={{match.employee.id}}"
+                alt="avatar" />
+            </div>
+
+            <mat-card-title>{{ match.employee.name }}</mat-card-title>
+            <mat-card-subtitle>Internal Candidate</mat-card-subtitle>
+          </mat-card-header>
+
+          <mat-card-content>
+            <div class="match-info">
+              <span>Skill match</span>
+              <strong>{{ match.percentage }}%</strong>
+            </div>
+
+            <mat-progress-bar
+              mode="determinate"
+              [value]="match.percentage"
+              [color]="match.percentage >= 70 ? 'primary' : 'warn'">
+            </mat-progress-bar>
+          </mat-card-content>
+
+          <mat-card-actions align="end">
+            <button mat-button color="primary">View profile</button>
+            <button mat-button>Details</button>
+          </mat-card-actions>
+
+        </mat-card>
+      </div>
+
+      <!-- Empty -->
+      <ng-template #emptyState>
+        <div class="empty">
+          <mat-icon>search</mat-icon>
+          <p>Select a job position to see matching employees</p>
+        </div>
+      </ng-template>
+
+    </div>
+  </mat-tab>
+
+  <!-- ================= EMPLOYEES TAB ================= -->
+  <mat-tab label="Employees">
+
+    <div class="section">
+
+      <div class="header-row">
+        <div>
+          <h2>Employees</h2>
+          <p>All internal employees and their skills</p>
+        </div>
+
+        <button mat-flat-button color="primary">
+          <mat-icon>add</mat-icon>
+          Add Employee
+        </button>
+      </div>
+
+      <mat-card>
+        <mat-list>
+          <mat-list-item *ngFor="let emp of data.employees()">
+            <img matListAvatar src="https://i.pravatar.cc/100?u={{emp.id}}" />
+            <h4 matLine>{{ emp.name }}</h4>
+            <p matLine>{{ emp.skillIds.length }} skills</p>
+            <button mat-icon-button>
+              <mat-icon>more_vert</mat-icon>
+            </button>
+          </mat-list-item>
+        </mat-list>
+      </mat-card>
+
+    </div>
+  </mat-tab>
+
+  <!-- ================= JOBS TAB ================= -->
+  <mat-tab label="Job Positions">
+
+    <div class="section">
+
+      <div class="header-row">
+        <div>
+          <h2>Job Positions</h2>
+          <p>Open and internal job roles</p>
+        </div>
+
+        <button mat-flat-button color="primary">
+          <mat-icon>add</mat-icon>
+          Add Job
+        </button>
+      </div>
+
+      <div class="grid small">
+        <mat-card *ngFor="let job of data.jobs()">
+          <mat-card-title>{{ job.title }}</mat-card-title>
+          <mat-card-subtitle>{{ job.skillIds.length }} required skills</mat-card-subtitle>
+
+          <mat-card-actions align="end">
+            <button mat-button color="primary">Edit</button>
+            <button mat-button>View</button>
+          </mat-card-actions>
+        </mat-card>
+      </div>
+
+    </div>
+  </mat-tab>
+
+</mat-tab-group>
+

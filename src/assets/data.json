@@ -1,0 +1,27 @@
+{
+  "skills": [
+    { "id": 1, "name": "Angular" },
+    { "id": 2, "name": "C#" },
+    { "id": 3, "name": "SQL Server" },
+    { "id": 4, "name": "Azure" }
+  ],
+  "jobs": [
+    {
+      "id": 1,
+      "title": "Fullstack Developer",
+      "skillIds": [1,2,3]
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Ana Rodríguez",
+      "skillIds": [1,2]
+    },
+    {
+      "id": 2,
+      "name": "Carlos Méndez",
+      "skillIds": [2,3,4]
+    }
+  ]
+}
