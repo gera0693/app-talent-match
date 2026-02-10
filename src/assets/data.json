@@ -1,27 +1,55 @@
 {
   "skills": [
-    { "id": 1, "name": "Angular" },
-    { "id": 2, "name": "C#" },
-    { "id": 3, "name": "SQL Server" },
-    { "id": 4, "name": "Azure" }
+    { "id": 1, "name": "Active Directory" },
+    { "id": 2, "name": "Azure" },
+    { "id": 3, "name": "Windows Server" },
+    { "id": 4, "name": "Linux" },
+    { "id": 5, "name": "Networking" },
+    { "id": 6, "name": "PowerShell" },
+    { "id": 7, "name": "Ansible" },
+    { "id": 8, "name": "Monitoring" },
+    { "id": 9, "name": "ITIL" },
+    { "id": 10, "name": "SQL" },
+    { "id": 11, "name": "Automation" },
+    { "id": 12, "name": "Project Management" },
+    { "id": 13, "name": "QA Testing" },
+    { "id": 14, "name": "CI/CD" },
+    { "id": 15, "name": "Virtualization" },
+    { "id": 16, "name": "Security" },
+    { "id": 17, "name": "Cloud Architecture" },
+    { "id": 18, "name": "Incident Management" },
+    { "id": 19, "name": "Change Management" },
+    { "id": 20, "name": "Documentation" }
   ],
   "jobs": [
-    {
-      "id": 1,
-      "title": "Fullstack Developer",
-      "skillIds": [1,2,3]
-    }
+    { "id": 1, "title": "Systems Engineering - Associate", "skillIds": [1,3,4,5,20] },
+    { "id": 2, "title": "Systems Engineering - Sr Associate", "skillIds": [1,2,3,4,5,6,20] },
+    { "id": 3, "title": "Systems Engineering - Professional", "skillIds": [1,2,3,4,5,6,11,15] },
+    { "id": 4, "title": "Systems Engineering - Sr Professional", "skillIds": [1,2,3,4,5,6,7,11,15,16] },
+    { "id": 5, "title": "Systems Engineering - Advisor", "skillIds": [1,2,3,4,5,6,7,8,11,15,16,17] },
+    { "id": 6, "title": "Infrastructure Engineering - Sr Professional", "skillIds": [2,3,4,5,6,7,8,15,17] },
+    { "id": 7, "title": "Network Operations - Sr Associate", "skillIds": [5,8,9,18,19] },
+    { "id": 8, "title": "Quality Assurance Engineering - Associate", "skillIds": [13,14,20] },
+    { "id": 9, "title": "Technical Project Management - Sr Associate", "skillIds": [9,12,18,19,20] }
   ],
   "employees": [
-    {
-      "id": 1,
-      "name": "Ana Rodríguez",
-      "skillIds": [1,2]
-    },
-    {
-      "id": 2,
-      "name": "Carlos Méndez",
-      "skillIds": [2,3,4]
-    }
+    { "id": 1, "name": "Manuel Alejandro Borbon Esquivel", "skillIds": [1,2,3,4,6,7,10,11,15,16] },
+    { "id": 2, "name": "Rodolfo Antonio Villalobos Pizarro", "skillIds": [2,4,5,8,9,16] },
+    { "id": 3, "name": "Luis Guillermo Strickland Potoy", "skillIds": [2,5,8,16,18] },
+    { "id": 4, "name": "Miguel Angel Marin Fonseca", "skillIds": [5,8,16] },
+    { "id": 5, "name": "Allan Calvo Nunez", "skillIds": [2,4,7,11,14,15,17] },
+    { "id": 6, "name": "Edgar Roberto Pena Obregon", "skillIds": [2,5,9,16] },
+    { "id": 7, "name": "Mario Enrique Solano Gonzalez", "skillIds": [2,4,7,10,11,14,15] },
+    { "id": 8, "name": "Steven Gonzalez Valerio", "skillIds": [2,4,5,8,14,16] },
+    { "id": 9, "name": "Paulo Cesar Dobles Porras", "skillIds": [5,15] },
+    { "id": 10, "name": "Anthony Andres Valencia Lopez", "skillIds": [5,16] },
+    { "id": 11, "name": "Moisés Jiménez Vega", "skillIds": [2,7,8,11,14,16,17] },
+    { "id": 12, "name": "Christopher Gerardo Gonzalez Rubi", "skillIds": [4,5,6,10,13] },
+    { "id": 13, "name": "Paola Maria Sanchez Vasquez", "skillIds": [10,12,20] },
+    { "id": 14, "name": "Jonathan Carrillo Gonzalez", "skillIds": [5,10,12] },
+    { "id": 15, "name": "Daniela Rojas Gonzalez", "skillIds": [12,20] },
+    { "id": 16, "name": "Johan Steve Madrigal Alfaro", "skillIds": [4,5,16,17,20] },
+    { "id": 17, "name": "Derrick Danny Kennedy Monge", "skillIds": [1,2,4,6,7,8,14,16] },
+    { "id": 18, "name": "Cesar Alonso Morera Alpizar", "skillIds": [5,8,9,10,12] }
   ]
 }

@@ -46,6 +46,7 @@ export class Matcher {
         employee: e,
         percentage: calculateMatch(job.skillIds, e.skillIds)
       }))
+      .filter(m => m.percentage > 0)
       .sort((a, b) => b.percentage - a.percentage);
   });
 
