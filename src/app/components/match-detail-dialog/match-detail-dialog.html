@@ -1,0 +1,38 @@
+<h2 mat-dialog-title>
+  {{ data.employee.name }} – Match Details
+</h2>
+
+<mat-dialog-content>
+
+  <p><strong>Job:</strong> {{ data.job.title }}</p>
+
+  <div style="margin-bottom:16px">
+    <mat-progress-bar
+      mode="determinate"
+      [value]="data.percentage">
+    </mat-progress-bar>
+    <p style="margin-top:4px">{{ data.percentage }}% skill match</p>
+  </div>
+
+  <h3>Matched skills</h3>
+  <mat-chip-set>
+    <mat-chip color="primary" selected
+      *ngFor="let skillId of matchedSkills()">
+      {{ getSkillName(skillId) }}
+    </mat-chip>
+  </mat-chip-set>
+
+  <h3 style="margin-top:16px">Missing skills</h3>
+  <mat-chip-set>
+    <mat-chip color="warn" selected
+      *ngFor="let skillId of missingSkills()">
+      {{ getSkillName(skillId) }}
+    </mat-chip>
+  </mat-chip-set>
+
+</mat-dialog-content>
+
+<mat-dialog-actions align="end">
+  <button mat-button mat-dialog-close>Close</button>
+</mat-dialog-actions>
+

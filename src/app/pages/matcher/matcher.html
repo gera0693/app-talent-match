@@ -178,7 +178,13 @@
 
           <mat-card-actions align="end">
             <button mat-button color="primary">View profile</button>
-            <button mat-button>Details</button>
+            <!-- <button mat-button>Details</button> -->
+             <button
+              mat-button
+              color="primary"
+              (click)="openMatchDetail(match)">
+              View details
+            </button>
           </mat-card-actions>
 
         </mat-card>

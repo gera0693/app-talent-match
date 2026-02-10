@@ -9,6 +9,9 @@ import { MatIconModule } from '@angular/material/icon';
 import { CommonModule } from '@angular/common';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatListModule } from '@angular/material/list';
+import { MatDialog } from '@angular/material/dialog';
+import { MatDialogModule } from '@angular/material/dialog';
+import { MatchDetailDialogComponent } from '../../components/match-detail-dialog/match-detail-dialog';
 
 @Component({
   standalone: true,
@@ -46,5 +49,18 @@ export class Matcher {
       .sort((a, b) => b.percentage - a.percentage);
   });
 
-  constructor(public data: DataService) {}
+  openMatchDetail(match: any) {
+    this.dialog.open(MatchDetailDialogComponent, {
+      width: '520px',
+      data: {
+        job: this.selectedJob(),
+        employee: match.employee,
+        percentage: match.percentage
+      }
+    });
+  }
+
+  constructor(public data: DataService,
+    private dialog: MatDialog
+  ) {}
 }
