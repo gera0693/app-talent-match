@@ -1,0 +1,17 @@
+.app-toolbar {
+  display: flex;
+  align-items: center;
+}
+
+.toolbar-logo {
+  height: 70%;
+  max-height: 40px;  
+  margin-right: 12px;
+  object-fit: contain;
+}
+
+.app-title {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
