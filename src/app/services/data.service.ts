@@ -20,7 +20,6 @@ export class DataService {
   jobs = signal(data.jobs);
   employees = signal(data.employees);
 
-  // ➕ Add new employee
   addEmployee(employee: Employee) {
     const current = this.employees();
 
@@ -32,7 +31,6 @@ export class DataService {
     this.employees.set([...current, newEmployee]);
   }
 
-  // ✏️ Update employee
   updateEmployee(employee: Employee) {
     this.employees.set(
       this.employees().map(e =>
@@ -41,14 +39,12 @@ export class DataService {
     );
   }
 
-  // 🔢 Next ID
   private getNextEmployeeId(employees: Employee[]): number {
     return employees.length
       ? Math.max(...employees.map(e => e.id)) + 1
       : 1;
   }
 
-  // ➕ Add new job position
   addJob(job: JobPosition) {
     const current = this.jobs();
 
@@ -60,7 +56,6 @@ export class DataService {
     this.jobs.set([...current, newJob]);
   }
 
-  // ✏️ Update job position
   updateJob(job: JobPosition) {
     this.jobs.set(
       this.jobs().map(j =>
@@ -69,7 +64,6 @@ export class DataService {
     );
   }
 
-  // 🔢 Next ID
   private getNextJobId(jobs: JobPosition[]): number {
     return jobs.length
       ? Math.max(...jobs.map(j => j.id)) + 1
