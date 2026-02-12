@@ -1,55 +1,2652 @@
 {
   "skills": [
-    { "id": 1, "name": "Active Directory" },
-    { "id": 2, "name": "Azure" },
-    { "id": 3, "name": "Windows Server" },
-    { "id": 4, "name": "Linux" },
-    { "id": 5, "name": "Networking" },
-    { "id": 6, "name": "PowerShell" },
-    { "id": 7, "name": "Ansible" },
-    { "id": 8, "name": "Monitoring" },
-    { "id": 9, "name": "ITIL" },
-    { "id": 10, "name": "SQL" },
-    { "id": 11, "name": "Automation" },
-    { "id": 12, "name": "Project Management" },
-    { "id": 13, "name": "QA Testing" },
-    { "id": 14, "name": "CI/CD" },
-    { "id": 15, "name": "Virtualization" },
-    { "id": 16, "name": "Security" },
-    { "id": 17, "name": "Cloud Architecture" },
-    { "id": 18, "name": "Incident Management" },
-    { "id": 19, "name": "Change Management" },
-    { "id": 20, "name": "Documentation" }
+    {
+      "id": 1,
+      "name": "Active Directory"
+    },
+    {
+      "id": 2,
+      "name": "Azure"
+    },
+    {
+      "id": 3,
+      "name": "Windows Server"
+    },
+    {
+      "id": 4,
+      "name": "Linux"
+    },
+    {
+      "id": 5,
+      "name": "Networking"
+    },
+    {
+      "id": 6,
+      "name": "PowerShell"
+    },
+    {
+      "id": 7,
+      "name": "Ansible"
+    },
+    {
+      "id": 8,
+      "name": "Monitoring"
+    },
+    {
+      "id": 9,
+      "name": "ITIL"
+    },
+    {
+      "id": 10,
+      "name": "SQL"
+    },
+    {
+      "id": 11,
+      "name": "Automation"
+    },
+    {
+      "id": 12,
+      "name": "Project Management"
+    },
+    {
+      "id": 13,
+      "name": "QA Testing"
+    },
+    {
+      "id": 14,
+      "name": "CI/CD"
+    },
+    {
+      "id": 15,
+      "name": "Virtualization"
+    },
+    {
+      "id": 16,
+      "name": "Security"
+    },
+    {
+      "id": 17,
+      "name": "Cloud Architecture"
+    },
+    {
+      "id": 18,
+      "name": "Incident Management"
+    },
+    {
+      "id": 19,
+      "name": "Change Management"
+    },
+    {
+      "id": 20,
+      "name": "Documentation"
+    },
+    {
+      "id": 21,
+      "name": "Switching"
+    },
+    {
+      "id": 22,
+      "name": "Network Security"
+    },
+    {
+      "id": 23,
+      "name": "NAT"
+    },
+    {
+      "id": 24,
+      "name": "Traffic Analysis"
+    },
+    {
+      "id": 25,
+      "name": "Palo Alto firewalls"
+    },
+    {
+      "id": 26,
+      "name": "Cisco technologies (FW, Routers, Switches)"
+    },
+    {
+      "id": 27,
+      "name": "CheckPoint Firewalls"
+    },
+    {
+      "id": 28,
+      "name": "Scripting (Python, TCL, Bash, Powershell)"
+    },
+    {
+      "id": 29,
+      "name": "Splunk"
+    },
+    {
+      "id": 30,
+      "name": "PKI"
+    },
+    {
+      "id": 31,
+      "name": "SSL Certificates"
+    },
+    {
+      "id": 32,
+      "name": "Google Cloud Fundamentals"
+    },
+    {
+      "id": 33,
+      "name": "AWS Fundamentals"
+    },
+    {
+      "id": 34,
+      "name": "PowerBI"
+    },
+    {
+      "id": 35,
+      "name": "PowerApps"
+    },
+    {
+      "id": 36,
+      "name": "Artificial Intelligence Tools"
+    },
+    {
+      "id": 37,
+      "name": "Data Analysis"
+    },
+    {
+      "id": 38,
+      "name": "Excel"
+    },
+    {
+      "id": 39,
+      "name": "Training / Mentoring"
+    },
+    {
+      "id": 40,
+      "name": "Vulnerability Management"
+    },
+    {
+      "id": 41,
+      "name": "Penetration Testing"
+    },
+    {
+      "id": 42,
+      "name": "Cybersecurity"
+    },
+    {
+      "id": 43,
+      "name": "SonicWall Firewalls"
+    },
+    {
+      "id": 44,
+      "name": "Customer Service"
+    },
+    {
+      "id": 45,
+      "name": "Juniper Firewalls"
+    },
+    {
+      "id": 46,
+      "name": "VPNs"
+    },
+    {
+      "id": 47,
+      "name": "Network Design"
+    },
+    {
+      "id": 48,
+      "name": "Cybersecurity Governance"
+    },
+    {
+      "id": 49,
+      "name": "Cyber Threat Response"
+    },
+    {
+      "id": 50,
+      "name": "Security Assessments"
+    },
+    {
+      "id": 51,
+      "name": "Physical Hardware"
+    },
+    {
+      "id": 52,
+      "name": "VMware/Hyper-V"
+    },
+    {
+      "id": 53,
+      "name": "Active Directory Administration"
+    },
+    {
+      "id": 54,
+      "name": "Apache HTTP Server"
+    },
+    {
+      "id": 55,
+      "name": "Automation Solutions"
+    },
+    {
+      "id": 56,
+      "name": "DNS"
+    },
+    {
+      "id": 57,
+      "name": "IIS Web Server"
+    },
+    {
+      "id": 58,
+      "name": "Microsoft Internet Information Server (IIS)"
+    },
+    {
+      "id": 59,
+      "name": "SCCM"
+    },
+    {
+      "id": 60,
+      "name": "Scripting"
+    },
+    {
+      "id": 61,
+      "name": "VMware"
+    },
+    {
+      "id": 62,
+      "name": "VMware ESXi"
+    },
+    {
+      "id": 63,
+      "name": "VMware vSphere"
+    },
+    {
+      "id": 64,
+      "name": "WSUS"
+    },
+    {
+      "id": 65,
+      "name": "TCP"
+    },
+    {
+      "id": 66,
+      "name": "IP"
+    },
+    {
+      "id": 67,
+      "name": "Firewalls"
+    },
+    {
+      "id": 68,
+      "name": "Checkpoint"
+    },
+    {
+      "id": 69,
+      "name": "Palo alto"
+    },
+    {
+      "id": 70,
+      "name": "Wireshark"
+    },
+    {
+      "id": 71,
+      "name": "Postman"
+    },
+    {
+      "id": 72,
+      "name": "API Gateway"
+    },
+    {
+      "id": 73,
+      "name": "ITIL v3"
+    },
+    {
+      "id": 74,
+      "name": "Web Services"
+    },
+    {
+      "id": 75,
+      "name": "Intel SOA Expressway (ESG)"
+    },
+    {
+      "id": 76,
+      "name": "Apigee Edge and F5 Application Security Manager"
+    },
+    {
+      "id": 77,
+      "name": "VNC"
+    },
+    {
+      "id": 78,
+      "name": "FTP"
+    },
+    {
+      "id": 79,
+      "name": "TFTP applications"
+    },
+    {
+      "id": 80,
+      "name": "XML Gateways"
+    },
+    {
+      "id": 81,
+      "name": "IP Firewalls"
+    },
+    {
+      "id": 82,
+      "name": "Python fundamentals"
+    },
+    {
+      "id": 83,
+      "name": "VPN"
+    },
+    {
+      "id": 84,
+      "name": "Venefi"
+    },
+    {
+      "id": 85,
+      "name": "Intel SOA"
+    },
+    {
+      "id": 86,
+      "name": "PingFederate"
+    },
+    {
+      "id": 87,
+      "name": "ASA"
+    },
+    {
+      "id": 88,
+      "name": "Apigee SPEP"
+    },
+    {
+      "id": 89,
+      "name": "EDGE"
+    },
+    {
+      "id": 90,
+      "name": "Troubleshooting"
+    },
+    {
+      "id": 91,
+      "name": "Implementation and integration"
+    },
+    {
+      "id": 92,
+      "name": "Leadership"
+    },
+    {
+      "id": 93,
+      "name": "Apigee"
+    },
+    {
+      "id": 94,
+      "name": "Digital Certificates"
+    },
+    {
+      "id": 95,
+      "name": "Platform DevOps"
+    },
+    {
+      "id": 96,
+      "name": "GIT"
+    },
+    {
+      "id": 97,
+      "name": "GitHub"
+    },
+    {
+      "id": 98,
+      "name": "GitLab CI"
+    },
+    {
+      "id": 99,
+      "name": "CD"
+    },
+    {
+      "id": 100,
+      "name": "Terraform"
+    },
+    {
+      "id": 101,
+      "name": "Docker"
+    },
+    {
+      "id": 102,
+      "name": "Kubernetes"
+    },
+    {
+      "id": 103,
+      "name": "Google Cloud Platform (GCP)"
+    },
+    {
+      "id": 104,
+      "name": "AWS"
+    },
+    {
+      "id": 105,
+      "name": "RESTfull APIs"
+    },
+    {
+      "id": 106,
+      "name": "Web Server Security"
+    },
+    {
+      "id": 107,
+      "name": "YAML"
+    },
+    {
+      "id": 108,
+      "name": "JavaScript"
+    },
+    {
+      "id": 109,
+      "name": "Python"
+    },
+    {
+      "id": 110,
+      "name": "Agile"
+    },
+    {
+      "id": 111,
+      "name": "Network Devices"
+    },
+    {
+      "id": 112,
+      "name": "Load Balancer F5"
+    },
+    {
+      "id": 113,
+      "name": "Grafana"
+    },
+    {
+      "id": 114,
+      "name": "SSL"
+    },
+    {
+      "id": 115,
+      "name": "0"
+    },
+    {
+      "id": 116,
+      "name": "Docker Containers"
+    },
+    {
+      "id": 117,
+      "name": "OpenShift"
+    },
+    {
+      "id": 118,
+      "name": "IBM MQ"
+    },
+    {
+      "id": 119,
+      "name": "MongoDB"
+    },
+    {
+      "id": 120,
+      "name": "Java"
+    },
+    {
+      "id": 121,
+      "name": "Spring Boot"
+    },
+    {
+      "id": 122,
+      "name": "Server"
+    },
+    {
+      "id": 123,
+      "name": "DevOps"
+    },
+    {
+      "id": 124,
+      "name": "Web full stack"
+    },
+    {
+      "id": 125,
+      "name": "PHP"
+    },
+    {
+      "id": 126,
+      "name": "CI"
+    },
+    {
+      "id": 127,
+      "name": "CD tools"
+    },
+    {
+      "id": 128,
+      "name": "Cloud Cybersecurity"
+    },
+    {
+      "id": 129,
+      "name": "Kafka admin"
+    },
+    {
+      "id": 130,
+      "name": "Kafka developer"
+    },
+    {
+      "id": 131,
+      "name": "Zero Trust"
+    },
+    {
+      "id": 132,
+      "name": "SCIM"
+    },
+    {
+      "id": 133,
+      "name": "SSO"
+    },
+    {
+      "id": 134,
+      "name": "SSL certificates administration"
+    },
+    {
+      "id": 135,
+      "name": "APIs"
+    },
+    {
+      "id": 136,
+      "name": "Load Balancing"
+    },
+    {
+      "id": 137,
+      "name": "Okta"
+    },
+    {
+      "id": 138,
+      "name": "Sumo Logic"
+    },
+    {
+      "id": 139,
+      "name": "Confluent"
+    },
+    {
+      "id": 140,
+      "name": "Cisco ASA Firewalls"
+    },
+    {
+      "id": 141,
+      "name": "Catalyst"
+    },
+    {
+      "id": 142,
+      "name": "Nexus Switches"
+    },
+    {
+      "id": 143,
+      "name": "Load Balancers"
+    },
+    {
+      "id": 144,
+      "name": "Network Management tools"
+    },
+    {
+      "id": 145,
+      "name": "BMC ITSM software"
+    },
+    {
+      "id": 146,
+      "name": "HPE"
+    },
+    {
+      "id": 147,
+      "name": "Aruba"
+    },
+    {
+      "id": 148,
+      "name": "Google Apigee"
+    },
+    {
+      "id": 149,
+      "name": "Moogsoft"
+    },
+    {
+      "id": 150,
+      "name": "Firewalls Cisco ASA"
+    },
+    {
+      "id": 151,
+      "name": "Juniper and Palo Alto"
+    },
+    {
+      "id": 152,
+      "name": "Apigee XML gateway"
+    },
+    {
+      "id": 153,
+      "name": "F5 LTM"
+    },
+    {
+      "id": 154,
+      "name": "API Security Engineering (Apigee X"
+    },
+    {
+      "id": 155,
+      "name": "Envoy Proxy"
+    },
+    {
+      "id": 156,
+      "name": "OWASP)"
+    },
+    {
+      "id": 157,
+      "name": "Certificate Lifecycle Management (Venafi"
+    },
+    {
+      "id": 158,
+      "name": "AD CS)"
+    },
+    {
+      "id": 159,
+      "name": "Infrastructure as Code (Terraform"
+    },
+    {
+      "id": 160,
+      "name": "CD)"
+    },
+    {
+      "id": 161,
+      "name": "Monitoring & Observability (Grafana"
+    },
+    {
+      "id": 162,
+      "name": "Splunk)"
+    },
+    {
+      "id": 163,
+      "name": "DevSecOps Automation (GCP"
+    },
+    {
+      "id": 164,
+      "name": "Visual Studio Code)"
+    },
+    {
+      "id": 165,
+      "name": "Secure API Design (SOAP to REST"
+    },
+    {
+      "id": 166,
+      "name": "JavaScript Policies)"
+    },
+    {
+      "id": 167,
+      "name": "Cryptographic Operations (X"
+    },
+    {
+      "id": 168,
+      "name": "509"
+    },
+    {
+      "id": 169,
+      "name": "Asymmetric Encryption)"
+    },
+    {
+      "id": 170,
+      "name": "Hybrid & Cloud-Native Architectures (Google Cloud"
+    },
+    {
+      "id": 171,
+      "name": "On-premise)"
+    },
+    {
+      "id": 172,
+      "name": "Testing"
+    },
+    {
+      "id": 173,
+      "name": "Server Administration"
+    },
+    {
+      "id": 174,
+      "name": "Scripting and Development"
+    },
+    {
+      "id": 175,
+      "name": "Data Analyst"
+    },
+    {
+      "id": 176,
+      "name": "Problem Solving"
+    },
+    {
+      "id": 177,
+      "name": "Escalation and Critical Situation"
+    },
+    {
+      "id": 178,
+      "name": "Digital Marketing Analyst"
+    },
+    {
+      "id": 179,
+      "name": "SAP"
+    },
+    {
+      "id": 180,
+      "name": "Salesforce"
+    },
+    {
+      "id": 181,
+      "name": "Power BI"
+    },
+    {
+      "id": 182,
+      "name": "Access"
+    },
+    {
+      "id": 183,
+      "name": "Trello"
+    },
+    {
+      "id": 184,
+      "name": "Workday"
+    },
+    {
+      "id": 185,
+      "name": "Scrum"
+    },
+    {
+      "id": 186,
+      "name": "Advanced Excel"
+    },
+    {
+      "id": 187,
+      "name": "Attention to detail"
+    },
+    {
+      "id": 188,
+      "name": "IT Project Management"
+    },
+    {
+      "id": 189,
+      "name": "Financial PM"
+    },
+    {
+      "id": 190,
+      "name": "Languages (Spanish"
+    },
+    {
+      "id": 191,
+      "name": "English and Italian)"
+    },
+    {
+      "id": 192,
+      "name": "Programmer"
+    },
+    {
+      "id": 193,
+      "name": "Planning & Scheduling"
+    },
+    {
+      "id": 194,
+      "name": "Task Management"
+    },
+    {
+      "id": 195,
+      "name": "Risk Management"
+    },
+    {
+      "id": 196,
+      "name": "Scope Management"
+    },
+    {
+      "id": 197,
+      "name": "Clear Communication"
+    },
+    {
+      "id": 198,
+      "name": "Team Collaboration"
+    },
+    {
+      "id": 199,
+      "name": "Conflict Resolution"
+    },
+    {
+      "id": 200,
+      "name": "Project Management Tools"
+    },
+    {
+      "id": 201,
+      "name": "Time Management"
+    },
+    {
+      "id": 202,
+      "name": "Critical Thinking"
+    },
+    {
+      "id": 203,
+      "name": "Adaptability"
+    },
+    {
+      "id": 204,
+      "name": "Accountability"
+    },
+    {
+      "id": 205,
+      "name": "Proactive Mindset"
+    },
+    {
+      "id": 206,
+      "name": "Scrum knowledge"
+    },
+    {
+      "id": 207,
+      "name": "Basic understanding of the technical side"
+    },
+    {
+      "id": 208,
+      "name": "Presentation Skills"
+    },
+    {
+      "id": 209,
+      "name": "Cisco networking technologies"
+    },
+    {
+      "id": 210,
+      "name": "routing and switching protocols (OSPF"
+    },
+    {
+      "id": 211,
+      "name": "EIGRP"
+    },
+    {
+      "id": 212,
+      "name": "BGP"
+    },
+    {
+      "id": 213,
+      "name": "RIP"
+    },
+    {
+      "id": 214,
+      "name": "VLANs"
+    },
+    {
+      "id": 215,
+      "name": "STP"
+    },
+    {
+      "id": 216,
+      "name": "RSTP"
+    },
+    {
+      "id": 217,
+      "name": "VTP)"
+    },
+    {
+      "id": 218,
+      "name": "network security (ACLs"
+    },
+    {
+      "id": 219,
+      "name": "firewalls – ASA"
+    },
+    {
+      "id": 220,
+      "name": "Firepower"
+    },
+    {
+      "id": 221,
+      "name": "IPS"
+    },
+    {
+      "id": 222,
+      "name": "IDS)"
+    },
+    {
+      "id": 223,
+      "name": "Palo Alto NGFW configuration"
+    },
+    {
+      "id": 224,
+      "name": "VPN implementation and management"
+    },
+    {
+      "id": 225,
+      "name": "Meraki cloud solutions"
+    },
+    {
+      "id": 226,
+      "name": "Linux system administration"
+    },
+    {
+      "id": 227,
+      "name": "Wi-Fi solutions (Cisco"
+    },
+    {
+      "id": 228,
+      "name": "Meraki"
+    },
+    {
+      "id": 229,
+      "name": "Aruba)"
+    },
+    {
+      "id": 230,
+      "name": "network troubleshooting"
+    },
+    {
+      "id": 231,
+      "name": "QoS configuration"
+    },
+    {
+      "id": 232,
+      "name": "authentication (SSO"
+    },
+    {
+      "id": 233,
+      "name": "MFA)"
+    },
+    {
+      "id": 234,
+      "name": "pre-sales engineering"
+    },
+    {
+      "id": 235,
+      "name": "technical documentation"
+    },
+    {
+      "id": 236,
+      "name": "Problem-Solving"
+    },
+    {
+      "id": 237,
+      "name": "Kafka producers"
+    },
+    {
+      "id": 238,
+      "name": "Kafka streams"
+    },
+    {
+      "id": 239,
+      "name": "Kafka architecture"
+    },
+    {
+      "id": 240,
+      "name": "Kafka connect"
+    },
+    {
+      "id": 241,
+      "name": "LDAP"
+    },
+    {
+      "id": 242,
+      "name": "MFA Tools"
+    },
+    {
+      "id": 243,
+      "name": "Microsoft 365 Administration"
+    },
+    {
+      "id": 244,
+      "name": "Endpoint Detection & Response (EDR)"
+    },
+    {
+      "id": 245,
+      "name": "Azure DevOps"
+    },
+    {
+      "id": 246,
+      "name": "Data Verification"
+    },
+    {
+      "id": 247,
+      "name": "Error Detection"
+    },
+    {
+      "id": 248,
+      "name": "Compiling Data"
+    },
+    {
+      "id": 249,
+      "name": "Information Verification"
+    },
+    {
+      "id": 250,
+      "name": "Calm Under Pressure"
+    },
+    {
+      "id": 251,
+      "name": "Analytical Thinking"
+    },
+    {
+      "id": 252,
+      "name": "Technical Troubleshooting"
+    },
+    {
+      "id": 253,
+      "name": "Network Performance"
+    },
+    {
+      "id": 254,
+      "name": "Equipment Configuration"
+    },
+    {
+      "id": 255,
+      "name": "Agile Methodology"
+    },
+    {
+      "id": 256,
+      "name": "ITILv3"
+    },
+    {
+      "id": 257,
+      "name": "PMP Knowledge"
+    },
+    {
+      "id": 258,
+      "name": "Apex"
+    },
+    {
+      "id": 259,
+      "name": "Bash"
+    },
+    {
+      "id": 260,
+      "name": "SQL Databases (intermediate level)"
+    }
   ],
   "jobs": [
-    { "id": 1, "title": "Systems Engineering - Associate", "skillIds": [1,3,4,5,20] },
-    { "id": 2, "title": "Systems Engineering - Sr Associate", "skillIds": [1,2,3,4,5,6,20] },
-    { "id": 3, "title": "Systems Engineering - Professional", "skillIds": [1,2,3,4,5,6,11,15] },
-    { "id": 4, "title": "Systems Engineering - Sr Professional", "skillIds": [1,2,3,4,5,6,7,11,15,16] },
-    { "id": 5, "title": "Systems Engineering - Advisor", "skillIds": [1,2,3,4,5,6,7,8,11,15,16,17] },
-    { "id": 6, "title": "Infrastructure Engineering - Sr Professional", "skillIds": [2,3,4,5,6,7,8,15,17] },
-    { "id": 7, "title": "Network Operations - Sr Associate", "skillIds": [5,8,9,18,19] },
-    { "id": 8, "title": "Quality Assurance Engineering - Associate", "skillIds": [13,14,20] },
-    { "id": 9, "title": "Technical Project Management - Sr Associate", "skillIds": [9,12,18,19,20] }
+    {
+      "id": 1,
+      "title": "Systems Engineering - Associate",
+      "skillIds": [
+        1,
+        3,
+        4,
+        5,
+        20
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Systems Engineering - Sr Associate",
+      "skillIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26,
+        28
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Systems Engineering - Professional",
+      "skillIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        11,
+        15,
+        18,
+        19,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        37,
+        43,
+        45
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Systems Engineering - Sr Professional",
+      "skillIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        11,
+        15,
+        16,
+        18,
+        19,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        40,
+        41,
+        43,
+        45,
+        48,
+        49,
+        50
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Systems Engineering - Advisor",
+      "skillIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        11,
+        15,
+        16,
+        17,
+        18,
+        19,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        40,
+        41,
+        43,
+        45,
+        48,
+        49,
+        50,
+        51,
+        52
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Infrastructure Engineering - Sr Professional",
+      "skillIds": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        15,
+        17,
+        18,
+        19,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        29,
+        30,
+        31,
+        32,
+        33,
+        43,
+        45,
+        51,
+        52
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Network Operations - Sr Associate",
+      "skillIds": [
+        5,
+        8,
+        9,
+        18,
+        19,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        29,
+        43,
+        45
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Quality Assurance Engineering - Associate",
+      "skillIds": [
+        13,
+        14,
+        20
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Technical Project Management - Sr Associate",
+      "skillIds": [
+        9,
+        12,
+        18,
+        19,
+        20,
+        39,
+        44
+      ]
+    }
   ],
   "employees": [
-    { "id": 1, "name": "Manuel Alejandro Borbon Esquivel", "skillIds": [1,2,3,4,6,7,10,11,15,16] },
-    { "id": 2, "name": "Rodolfo Antonio Villalobos Pizarro", "skillIds": [2,4,5,8,9,16] },
-    { "id": 3, "name": "Luis Guillermo Strickland Potoy", "skillIds": [2,5,8,16,18] },
-    { "id": 4, "name": "Miguel Angel Marin Fonseca", "skillIds": [5,8,16] },
-    { "id": 5, "name": "Allan Calvo Nunez", "skillIds": [2,4,7,11,14,15,17] },
-    { "id": 6, "name": "Edgar Roberto Pena Obregon", "skillIds": [2,5,9,16] },
-    { "id": 7, "name": "Mario Enrique Solano Gonzalez", "skillIds": [2,4,7,10,11,14,15] },
-    { "id": 8, "name": "Steven Gonzalez Valerio", "skillIds": [2,4,5,8,14,16] },
-    { "id": 9, "name": "Paulo Cesar Dobles Porras", "skillIds": [5,15] },
-    { "id": 10, "name": "Anthony Andres Valencia Lopez", "skillIds": [5,16] },
-    { "id": 11, "name": "Moisés Jiménez Vega", "skillIds": [2,7,8,11,14,16,17] },
-    { "id": 12, "name": "Christopher Gerardo Gonzalez Rubi", "skillIds": [4,5,6,10,13] },
-    { "id": 13, "name": "Paola Maria Sanchez Vasquez", "skillIds": [10,12,20] },
-    { "id": 14, "name": "Jonathan Carrillo Gonzalez", "skillIds": [5,10,12] },
-    { "id": 15, "name": "Daniela Rojas Gonzalez", "skillIds": [12,20] },
-    { "id": 16, "name": "Johan Steve Madrigal Alfaro", "skillIds": [4,5,16,17,20] },
-    { "id": 17, "name": "Derrick Danny Kennedy Monge", "skillIds": [1,2,4,6,7,8,14,16] },
-    { "id": 18, "name": "Cesar Alonso Morera Alpizar", "skillIds": [5,8,9,10,12] }
+    {
+      "id": 1,
+      "name": "Manuel Alejandro Borbon Esquivel",
+      "skillIds": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        10,
+        11,
+        15,
+        16,
+        40,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64
+      ],
+      "profile": {
+        "skillsText": "Active Directory Administration, Ansible, Apache HTTP Server, Automation Solutions, DNS Server, Domain Controllers, IIS Web Server, Linux Operating System, Microsoft Active Directory (AD), Microsoft Internet Information Server (IIS), Microsoft Server Administration, Microsoft SQL Server, Microsoft System Center Configuration Manager, Microsoft Windows Server, Microsoft Windows Server Platform, Script Writing, VMware, VMware ESX, VMware vSphere, Vulnerability Management, Windows Server Update Services (WSUS)",
+        "education": "",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "certifications": [],
+        "workExperienceYears": null
+      }
+    },
+    {
+      "id": 2,
+      "name": "Rodolfo Antonio Villalobos Pizarro",
+      "skillIds": [
+        2,
+        4,
+        5,
+        8,
+        9,
+        16,
+        22,
+        23,
+        29,
+        31,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79
+      ],
+      "profile": {
+        "skillsText": "TCP/IP, Network Security, Firewalls, Splunk, Checkpoint, Palo alto, Wireshark, Postman, Linux, APIs Proxy, Azure Fundamentals, ITIL v3, NAT, SSL certificates, Web Services, Intel SOA XML Gateway, Apigee Edge and F5 Application Security Manager, Whireshark, VNC, FTP/TFTP applications",
+        "education": "Cisco Networking Academy, CUNA",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "certifications": [
+          "CCNA Security",
+          "ITILv3"
+        ],
+        "workExperienceYears": 15
+      }
+    },
+    {
+      "id": 3,
+      "name": "Luis Guillermo Strickland Potoy",
+      "skillIds": [
+        2,
+        5,
+        8,
+        16,
+        18,
+        22,
+        23,
+        29,
+        31,
+        65,
+        66,
+        70,
+        71,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92
+      ],
+      "profile": {
+        "skillsText": "Network, Network Security, XML Gateways, IP Firewalls, Python fundamentals, TCP/IP, NAT, VPN, SSL Certificates, Venefi, Wireshark, Postman, Intel SOA, PingFederate, ASA, Apigee SPEP/ EDGE, Troubleshooting, Implementation and integration, Splunk, Leadership",
+        "education": "Hight School Colegio Seminario. Cisco Networking Academy, UCR. Informatica (In Progress) UNED",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "certifications": [],
+        "workExperienceYears": 14
+      }
+    },
+    {
+      "id": 4,
+      "name": "Miguel Angel Marin Fonseca",
+      "skillIds": [
+        5,
+        8,
+        16,
+        22,
+        29,
+        67,
+        70,
+        71,
+        75,
+        83,
+        93,
+        94
+      ],
+      "profile": {
+        "skillsText": "Network, Network Security, Firewalls, Wireshark, Splunk, Postman, Apigee, Intel XML ESG, Digital Certificates, VPN",
+        "education": "Cisco Networking Academy, UNA",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "certifications": [
+          "CCNA Routing and Switching",
+          "CCNA Security"
+        ],
+        "workExperienceYears": 9
+      }
+    },
+    {
+      "id": 5,
+      "name": "Allan Calvo Nunez",
+      "skillIds": [
+        2,
+        4,
+        7,
+        9,
+        11,
+        14,
+        15,
+        17,
+        22,
+        29,
+        65,
+        66,
+        70,
+        80,
+        81,
+        83,
+        93,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114
+      ],
+      "profile": {
+        "skillsText": "Platform DevOps, GIT, GitHub, GitLab CI/CD, Linux, Ansible, Terraform, Docker, Kubernetes, GCP, Azure, AWS, RESTfull APIs, Apigee On Prem and Cloud, Web Server Security, YAML, Java Script, Python, Network Security, TCP/IP, WireShark, ITIL, Agile, IP Firewalls, Network Devices, Load Balancer F5, XML Gateways, Grafana, SPLUNK, SSL, VPN",
+        "education": "High School San Pablo L.C.; IT Specialist University Politécnico Internacional; Python Fundamentals - University Castro Carazo",
+        "languages": [
+          "English",
+          "Spanish",
+          "Portuguese"
+        ],
+        "certifications": [
+          "CCNA Security",
+          "CCNP Enterprise",
+          "ITIL Foundation Certificate in IT Service Mgmt",
+          "Microsoft AZ-900 Certified",
+          "Security Associate AZ-500 Exam Pending",
+          "Online Certificates: Python",
+          "DevOps Tools and automation",
+          "Azure",
+          "Linux",
+          "GCP"
+        ],
+        "workExperienceYears": 10
+      }
+    },
+    {
+      "id": 6,
+      "name": "Edgar Roberto Pena Obregon",
+      "skillIds": [
+        2,
+        5,
+        9,
+        16,
+        22,
+        23,
+        67,
+        72,
+        73,
+        83,
+        114,
+        115
+      ],
+      "profile": {
+        "skillsText": "Networking, Network Security, Firewalls, API Gateways, Azure Fundamentals, ITIL v3.0, SSL, NAT, VPN",
+        "education": "",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "certifications": [],
+        "workExperienceYears": null
+      }
+    },
+    {
+      "id": 7,
+      "name": "Mario Enrique Solano Gonzalez",
+      "skillIds": [
+        2,
+        4,
+        7,
+        10,
+        11,
+        14,
+        15,
+        29,
+        60,
+        62,
+        65,
+        66,
+        70,
+        71,
+        90,
+        91,
+        96,
+        97,
+        100,
+        103,
+        107,
+        108,
+        109,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139
+      ],
+      "profile": {
+        "skillsText": "VmWare Esxi, Docker Containers, TCP/IP, Linux, Terraform, Azure, OpenShift, IBM MQ, Mongo, Java, SpringBoot, Server, SQL, Wireshark, Postman, Scripting, Git, GitHub, Ansible, DevOps, Web full stack, Python, PHP, JavaScript, YAML, CI/CD tools, Cloud Cybersecurity, Kafka admin, Kafka developer, Zero Trust, SCIM provisioning, SSO, SSL certificates administration, APIs, Load Balancing, Okta, Troubleshooting, Implementation and integration, Splunk, SumoLogic, GCP, Azure, Confluent",
+        "education": "Universidad Técnica Nacional",
+        "languages": [
+          "English",
+          "Spanish",
+          "Portuguese"
+        ],
+        "certifications": [],
+        "workExperienceYears": 15
+      }
+    },
+    {
+      "id": 8,
+      "name": "Steven Gonzalez Valerio",
+      "skillIds": [
+        2,
+        4,
+        5,
+        8,
+        14,
+        16,
+        22,
+        29,
+        42,
+        70,
+        93,
+        98,
+        99,
+        103,
+        113,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149
+      ],
+      "profile": {
+        "skillsText": "Networking, Network Security, GitLab CI/CD, Linux, Cisco ASA Firewalls, Catalyst/Nexus Switches, Load Balancers, Apigee On Prem and Cloud, GCP, Network Management tools, BMC ITSM software, HPE, Aruba, Google Apigee, Cybersecurity, Wireshark, Splunk, Moogsoft, Grafana",
+        "education": "Cisco Networking Academy; Universidad de Costa Rica, Electronic Engineering; Universidad Hispanoamericana",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "certifications": [
+          "NSE 1 and 2 Network Security Associate",
+          "Fortinet",
+          "FCFC-Fortinet",
+          "AZ-900",
+          "SC-900",
+          "ITILv3"
+        ],
+        "workExperienceYears": 10
+      }
+    },
+    {
+      "id": 9,
+      "name": "Paulo Cesar Dobles Porras",
+      "skillIds": [
+        5,
+        15,
+        16
+      ],
+      "profile": {
+        "skillsText": "Networking, Security, Virtualization",
+        "education": "The Commonwealth Secondary School",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "certifications": [],
+        "workExperienceYears": null
+      }
+    },
+    {
+      "id": 10,
+      "name": "Anthony Andres Valencia Lopez",
+      "skillIds": [
+        5,
+        16,
+        22,
+        68,
+        150,
+        151,
+        152,
+        153
+      ],
+      "profile": {
+        "skillsText": "Networking, Network Security, Firewalls Cisco ASA, Checkpoint, Juniper and Palo Alto, Apigee XML gateway, F5 LTM",
+        "education": "Cisco Networking Academy",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "certifications": [
+          "CCNA Routing and Switching",
+          "CCNA Cyberops",
+          "Checkpoint CCSA Security Administrator"
+        ],
+        "workExperienceYears": 13
+      }
+    },
+    {
+      "id": 11,
+      "name": "Moisés Jiménez Vega",
+      "skillIds": [
+        2,
+        7,
+        8,
+        11,
+        14,
+        16,
+        17,
+        98,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171
+      ],
+      "profile": {
+        "skillsText": "API Security Engineering (Apigee X, Envoy Proxy, OWASP), Certificate Lifecycle Management (Venafi, AD CS), Infrastructure as Code (Terraform, GitLab CI/CD), Monitoring & Observability (Grafana, Splunk), DevSecOps Automation (GCP, Visual Studio Code), Secure API Design (SOAP to REST, JavaScript Policies), Cryptographic Operations (X.509, Asymmetric Encryption), Hybrid & Cloud-Native Architectures (Google Cloud, On-premise)",
+        "education": "Cybersecurity Specialization – ULACIT; Microsoft Cybersecurity Architect – Microsoft (Apr 2025)",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "certifications": [
+          "VSA Datacenter 24.1 – Venafi (Aug 2024)",
+          "Envoy Fundamentals – Tetrate (Feb 2025)",
+          "API Security / Design / Development – Google Cloud Apigee (Jun 2024)",
+          "Microsoft Cybersecurity Architect – Microsoft (Apr 2025)",
+          "Foundations of Prompt Engineering – AWS (Mar 2024)",
+          "Generative AI for Decision Makers – AWS (Mar 2024)",
+          "API Security Fundamentals – APIsec University (Feb 2024)",
+          "OWASP API Security Top 10 – APIsec University (Feb 2024)",
+          "Microsoft Azure Fundamentals (Cloud Concepts & Governance) – Microsoft (Feb 2024)",
+          "CompTIA Security+ (Complete Course) – Udemy (Aug 2023)",
+          "ISC2 CC Training – ISC2 (Jul 2023)",
+          "NSE 1 & NSE 2 Network Security – Fortinet (Mar & Jul 2023)",
+          "Python Pro Bootcamp – Udemy (2023)"
+        ],
+        "workExperienceYears": 3
+      }
+    },
+    {
+      "id": 12,
+      "name": "Christopher Gerardo Gonzalez Rubi",
+      "skillIds": [
+        4,
+        5,
+        6,
+        10,
+        13,
+        108,
+        109,
+        172,
+        173,
+        174
+      ],
+      "profile": {
+        "skillsText": "Python, Javascript, Testing, Linux, Networking, SQL, Server Administration, Scripting and Development",
+        "education": "UC Costa Rica (unfinished), Vocacional Jesus Ocanna Rojas",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "certifications": [
+          "INA",
+          "Cisco Networking Academy",
+          "Cenfotec"
+        ],
+        "workExperienceYears": 10
+      }
+    },
+    {
+      "id": 13,
+      "name": "Paola Maria Sanchez Vasquez",
+      "skillIds": [
+        10,
+        12,
+        20,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191
+      ],
+      "profile": {
+        "skillsText": "Project Management, Data Analyst, Problem Solving, Escalation and Critical Situation, Digital Marketing Analyst, SAP, Salesforce, Power BI, Access, SQL, Trello, Workday, Scrum, Advanced Excel, Attention to detail, IT Project Management, Financial PM, Languages (Spanish, English and Italian)",
+        "education": "",
+        "languages": [
+          "Spanish",
+          "English",
+          "Italian"
+        ],
+        "certifications": [],
+        "workExperienceYears": null
+      }
+    },
+    {
+      "id": 14,
+      "name": "Jonathan Carrillo Gonzalez",
+      "skillIds": [
+        5,
+        10,
+        12,
+        192
+      ],
+      "profile": {
+        "skillsText": "Networking, SQL, Programmer",
+        "education": "Computer Software Engineering ULACIT; Networks and Telematic Processes INA; Structured Cabling INA; Server Administration INA; Active Equipment configuration INA; Network maintenance INA",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "certifications": [
+          "Scrum Fundamentals"
+        ],
+        "workExperienceYears": 10
+      }
+    },
+    {
+      "id": 15,
+      "name": "Daniela Rojas Gonzalez",
+      "skillIds": [
+        12,
+        20,
+        110,
+        187,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208
+      ],
+      "profile": {
+        "skillsText": "Planning & Scheduling, Task Management, Risk Management, Scope Management, Clear Communication, Team Collaboration, Conflict Resolution, Project Management Tools, Time Management, Critical Thinking, Attention to Detail, Adaptability, Accountability, Proactive Mindset, Agile / Scrum knowledge, Basic understanding of the technical side, Presentation Skills",
+        "education": "",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "certifications": [
+          "Project Management Fundamentals"
+        ],
+        "workExperienceYears": 1
+      }
+    },
+    {
+      "id": 16,
+      "name": "Johan Steve Madrigal Alfaro",
+      "skillIds": [
+        4,
+        5,
+        16,
+        17,
+        20,
+        46,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235
+      ],
+      "profile": {
+        "skillsText": "Cisco networking technologies, routing and switching protocols (OSPF, EIGRP, BGP, RIP, VLANs, STP, RSTP, VTP), network security (ACLs, VPNs, firewalls – ASA, Firepower, IPS/IDS), Palo Alto NGFW configuration, VPN implementation and management, Meraki cloud solutions, Linux system administration, Wi-Fi solutions (Cisco, Meraki, Aruba), network troubleshooting, QoS configuration, authentication (SSO, MFA), pre-sales engineering, technical documentation",
+        "education": "Ingeniero en Telemática, Universidad Latina de Costa Rica; Cisco CCNA Routing and Switching; Cisco CCNP Routing and Switching; Meraki CMNA; Juniper JNCIA-Junos; Juniper JNCIS-ENT; Okta Professional; Dell ISM v3; Fortinet Fundamentals; Fortinet Associate",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "certifications": [
+          "CCNA Routing and Switching",
+          "Juniper Security"
+        ],
+        "workExperienceYears": 8
+      }
+    },
+    {
+      "id": 17,
+      "name": "Derrick Danny Kennedy Monge",
+      "skillIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        14,
+        16,
+        96,
+        100,
+        104,
+        113,
+        201,
+        203,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245
+      ],
+      "profile": {
+        "skillsText": "Problem-Solving, Adaptability, Time Management, Windows server, Linux, Networking, Azure, AWS, PowerShell, Grafana, Active Directory, Terraform, Kafka producers, Kafka streams, Kafka architecture, Kafka connect, CI CD, LDAP, GIT, MFA Tools, M365 administration, EDR, Azure DevOps",
+        "education": "Bachelors degree in Systems Engineering with a specialization in Cybersecurity at ULACIT",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "certifications": [
+          "ITIL V3",
+          "Scrum Fundamentals"
+        ],
+        "workExperienceYears": 4
+      }
+    },
+    {
+      "id": 18,
+      "name": "Cesar Alonso Morera Alpizar",
+      "skillIds": [
+        5,
+        8,
+        9,
+        10,
+        12,
+        109,
+        120,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260
+      ],
+      "profile": {
+        "skillsText": "Data Verification, Error Detection, Compiling Data, Information Verification, Calm Under Pressure, Analytical Thinking, Technical Troubleshooting, Network Performance, Monitoring, Equipment Configuration, Agile Methodology, ITILv3, PMP Knowledge, Apex, Bash, Python, Java, SQL Databases (intermediate level)",
+        "education": "Bachelors Degree in Security Engineering and Cisco Networking Academy at Universidad Fidelitas",
+        "languages": [
+          "English",
+          "Spanish",
+          "Portuguese"
+        ],
+        "certifications": [
+          "CCNA Routing and Switching",
+          "Salesforce Developer I"
+        ],
+        "workExperienceYears": 10
+      }
+    },
+    {
+      "id": 19,
+      "name": "Rodrigo Miranda",
+      "skillIds": [
+        1,
+        2,
+        3,
+        5,
+        9,
+        18,
+        19,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        39
+      ]
+    },
+    {
+      "id": 20,
+      "name": "David Murillo",
+      "skillIds": [
+        1,
+        2,
+        3,
+        5,
+        9,
+        18,
+        19,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Fabio Vargas",
+      "skillIds": [
+        1,
+        2,
+        3,
+        5,
+        9,
+        18,
+        19,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Carlos Cambronero",
+      "skillIds": [
+        1,
+        2,
+        3,
+        5,
+        9,
+        18,
+        19,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        40
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Alejandro Rabasso Rivera",
+      "skillIds": [
+        1,
+        2,
+        3,
+        5,
+        9,
+        18,
+        19,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        41,
+        42
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Alex Debbe",
+      "skillIds": [
+        2,
+        5,
+        18,
+        19,
+        21,
+        23,
+        24,
+        26,
+        28,
+        29,
+        36,
+        37,
+        38
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Nhavid Benavides Avila",
+      "skillIds": [
+        3,
+        5,
+        19,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        31,
+        32,
+        34,
+        35,
+        36
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Javier Venegas",
+      "skillIds": [
+        1,
+        2,
+        3,
+        5,
+        9,
+        18,
+        19,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        51,
+        52
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Roberto Cordoba",
+      "skillIds": [
+        1,
+        2,
+        3,
+        5,
+        9,
+        18,
+        19,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        48,
+        49,
+        50
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Reynaldo Sanchez",
+      "skillIds": [
+        1,
+        2,
+        3,
+        5,
+        9,
+        18,
+        19,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Cicelio Barrantes",
+      "skillIds": [
+        1,
+        2,
+        3,
+        5,
+        9,
+        18,
+        19,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Valentin Flores",
+      "skillIds": [
+        1,
+        2,
+        3,
+        5,
+        9,
+        18,
+        19,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        43,
+        44
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Oscar Diaz",
+      "skillIds": [
+        1,
+        2,
+        3,
+        5,
+        9,
+        19,
+        22,
+        24,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38
+      ]
+    },
+    {
+      "id": 32,
+      "name": "William Campos",
+      "skillIds": [
+        1,
+        2,
+        3,
+        5,
+        9,
+        18,
+        19,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Orlando Chavarria",
+      "skillIds": [
+        1,
+        2,
+        3,
+        5,
+        18,
+        19,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        45
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Humberto Quiros",
+      "skillIds": [
+        1,
+        2,
+        3,
+        5,
+        9,
+        18,
+        19,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Wendy Saborio",
+      "skillIds": [
+        1,
+        2,
+        3,
+        5,
+        9,
+        18,
+        19,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Miguel Jimenez",
+      "skillIds": [
+        1,
+        2,
+        3,
+        5,
+        9,
+        18,
+        19,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        32,
+        33,
+        35,
+        36,
+        37,
+        46,
+        47
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Adriana Chavarria",
+      "skillIds": [
+        5,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        30,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        42
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Max Figueroa",
+      "skillIds": [
+        2,
+        5,
+        9,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Jason Mendez",
+      "skillIds": [
+        1,
+        2,
+        3,
+        5,
+        9,
+        18,
+        19,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Raquel Gomez",
+      "skillIds": [
+        1,
+        2,
+        3,
+        5,
+        9,
+        18,
+        19,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38
+      ]
+    }
   ]
 }
