@@ -1,11 +1,37 @@
 <mat-toolbar color="primary" class="app-toolbar">
+
+  <!-- Logo -->
   <img
     src="logo.jpeg"
     alt="Talent Skill Matcher"
     class="toolbar-logo" />
-  <span>Talent Skill Matcher</span>
+
+  <!-- Title -->
+  <span class="app-title">Talent Skill Matcher</span>
+
+  <span class="spacer"></span>
+
+  <!-- User Info -->
+  <ng-container *ngIf="auth.currentUser() as user">
+    <div class="user-info">
+      <mat-icon>account_circle</mat-icon>
+      <span class="username">{{ user.username }}</span>
+      <span class="role">({{ user.role }})</span>
+    </div>
+
+    <button
+      mat-icon-button
+      color="warn"
+      matTooltip="Logout"
+      (click)="auth.logout()"
+    >
+      <mat-icon>logout</mat-icon>
+    </button>
+  </ng-container>
+
 </mat-toolbar>
 
-<main style="padding:24px">
+<main class="main-content">
   <router-outlet></router-outlet>
 </main>
+
