@@ -1,5 +1,6 @@
 import { inject, Injectable, signal } from '@angular/core';
 import { AuthUser } from '../models/auth-user.model';
+import { EmployeeService } from './employee.service';
 import { Router } from '@angular/router';
 
 @Injectable({
@@ -9,6 +10,7 @@ export class AuthService {
 
   private STORAGE_KEY = 'demo_user';
   private router = inject(Router);
+  private employeeService = inject(EmployeeService);
 
   currentUser = signal<AuthUser | null>(this.getStoredUser());
 
@@ -18,15 +20,15 @@ export class AuthService {
   ];
 
   login(username: string, password: string): AuthUser | null {
-    const found = this.users.find(
-      u => u.username === username && u.password === password
-    );
+    const found = this.employeeService.findByCredentials(username, password);
 
     if (!found) return null;
 
     const authUser: AuthUser = {
+      name: found.name,
       username: found.username,
-      role: found.role
+      role: found.role,
+      skillIds: found.skillIds
     };
 
     localStorage.setItem(this.STORAGE_KEY, JSON.stringify(authUser));

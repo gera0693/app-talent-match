@@ -20,7 +20,7 @@ export const routes: Routes = [
     canActivate: [authGuard],
     loadComponent: () =>
       import('./pages/profile/profile/profile')
-        .then(m => m.Profile),
+        .then(m => m.ProfileComponent),
     data: { role: 'user' }
   },
 

@@ -3,6 +3,9 @@ import data from '../../assets/data.json';
 
 export interface Employee {
   id: number;
+  username: string;
+  password: string;
+  role: string;
   name: string;
   skillIds: number[];
 }

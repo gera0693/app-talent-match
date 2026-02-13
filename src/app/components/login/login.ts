@@ -26,7 +26,7 @@ import { MatIconModule } from '@angular/material/icon';
     <div class="login-wrapper">
       <mat-card class="login-card">
 
-        <h2 class="title">Talent Match Login</h2>
+        <h2 class="title">Login</h2>
 
         <mat-form-field appearance="outline" class="full-width">
           <mat-label>Username</mat-label>

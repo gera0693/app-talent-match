@@ -1272,6 +1272,9 @@
   "employees": [
     {
       "id": 1,
+      "username": "user1",
+      "password": "1234",
+      "role": "user",
       "name": "Manuel Alejandro Borbon Esquivel",
       "skillIds": [
         1,
@@ -1311,6 +1314,9 @@
     },
     {
       "id": 2,
+      "username": "user2",
+      "password": "1234",
+      "role": "user",
       "name": "Rodolfo Antonio Villalobos Pizarro",
       "skillIds": [
         2,
@@ -1355,6 +1361,9 @@
     },
     {
       "id": 3,
+      "username": "user3",
+      "password": "1234",
+      "role": "user",
       "name": "Luis Guillermo Strickland Potoy",
       "skillIds": [
         2,
@@ -1397,6 +1406,9 @@
     },
     {
       "id": 4,
+      "username": "user4",
+      "password": "1234",
+      "role": "user",
       "name": "Miguel Angel Marin Fonseca",
       "skillIds": [
         5,
@@ -1428,6 +1440,9 @@
     },
     {
       "id": 5,
+      "username": "user5",
+      "password": "1234",
+      "role": "user",
       "name": "Allan Calvo Nunez",
       "skillIds": [
         2,
@@ -1493,6 +1508,9 @@
     },
     {
       "id": 6,
+      "username": "user6",
+      "password": "1234",
+      "role": "user",
       "name": "Edgar Roberto Pena Obregon",
       "skillIds": [
         2,
@@ -1521,6 +1539,9 @@
     },
     {
       "id": 7,
+      "username": "user7",
+      "password": "1234",
+      "role": "user",
       "name": "Mario Enrique Solano Gonzalez",
       "skillIds": [
         2,
@@ -1585,6 +1606,9 @@
     },
     {
       "id": 8,
+      "username": "user8",
+      "password": "1234",
+      "role": "user",
       "name": "Steven Gonzalez Valerio",
       "skillIds": [
         2,
@@ -1633,6 +1657,9 @@
     },
     {
       "id": 9,
+      "username": "user9",
+      "password": "1234",
+      "role": "user",
       "name": "Paulo Cesar Dobles Porras",
       "skillIds": [
         5,
@@ -1652,6 +1679,9 @@
     },
     {
       "id": 10,
+      "username": "user10",
+      "password": "1234",
+      "role": "user",
       "name": "Anthony Andres Valencia Lopez",
       "skillIds": [
         5,
@@ -1680,6 +1710,9 @@
     },
     {
       "id": 11,
+      "username": "user11",
+      "password": "1234",
+      "role": "user",
       "name": "Moisés Jiménez Vega",
       "skillIds": [
         2,
@@ -1736,6 +1769,9 @@
     },
     {
       "id": 12,
+      "username": "user12",
+      "password": "1234",
+      "role": "user",
       "name": "Christopher Gerardo Gonzalez Rubi",
       "skillIds": [
         4,
@@ -1766,6 +1802,9 @@
     },
     {
       "id": 13,
+      "username": "user13",
+      "password": "1234",
+      "role": "user",
       "name": "Paola Maria Sanchez Vasquez",
       "skillIds": [
         10,
@@ -1803,6 +1842,9 @@
     },
     {
       "id": 14,
+      "username": "user14",
+      "password": "1234",
+      "role": "user",
       "name": "Jonathan Carrillo Gonzalez",
       "skillIds": [
         5,
@@ -1825,6 +1867,9 @@
     },
     {
       "id": 15,
+      "username": "user15",
+      "password": "1234",
+      "role": "user",
       "name": "Daniela Rojas Gonzalez",
       "skillIds": [
         12,
@@ -1863,6 +1908,9 @@
     },
     {
       "id": 16,
+      "username": "user16",
+      "password": "1234",
+      "role": "user",
       "name": "Johan Steve Madrigal Alfaro",
       "skillIds": [
         4,
@@ -1915,6 +1963,9 @@
     },
     {
       "id": 17,
+      "username": "user17",
+      "password": "1234",
+      "role": "user",
       "name": "Derrick Danny Kennedy Monge",
       "skillIds": [
         1,
@@ -1960,6 +2011,9 @@
     },
     {
       "id": 18,
+      "username": "user18",
+      "password": "1234",
+      "role": "user",
       "name": "Cesar Alonso Morera Alpizar",
       "skillIds": [
         5,
@@ -2002,6 +2056,9 @@
     },
     {
       "id": 19,
+      "username": "user19",
+      "password": "1234",
+      "role": "user",
       "name": "Rodrigo Miranda",
       "skillIds": [
         1,
@@ -2033,6 +2090,9 @@
     },
     {
       "id": 20,
+      "username": "user20",
+      "password": "1234",
+      "role": "user",
       "name": "David Murillo",
       "skillIds": [
         1,
@@ -2064,6 +2124,9 @@
     },
     {
       "id": 21,
+      "username": "user21",
+      "password": "1234",
+      "role": "user",
       "name": "Fabio Vargas",
       "skillIds": [
         1,
@@ -2093,6 +2156,9 @@
     },
     {
       "id": 22,
+      "username": "user22",
+      "password": "1234",
+      "role": "user",
       "name": "Carlos Cambronero",
       "skillIds": [
         1,
@@ -2125,6 +2191,9 @@
     },
     {
       "id": 23,
+      "username": "user23",
+      "password": "1234",
+      "role": "user",
       "name": "Alejandro Rabasso Rivera",
       "skillIds": [
         1,
@@ -2158,6 +2227,9 @@
     },
     {
       "id": 24,
+      "username": "user24",
+      "password": "1234",
+      "role": "user",
       "name": "Alex Debbe",
       "skillIds": [
         2,
@@ -2177,6 +2249,9 @@
     },
     {
       "id": 25,
+      "username": "user25",
+      "password": "1234",
+      "role": "user",
       "name": "Nhavid Benavides Avila",
       "skillIds": [
         3,
@@ -2200,6 +2275,9 @@
     },
     {
       "id": 26,
+      "username": "user26",
+      "password": "1234",
+      "role": "user",
       "name": "Javier Venegas",
       "skillIds": [
         1,
@@ -2233,6 +2311,9 @@
     },
     {
       "id": 27,
+      "username": "user27",
+      "password": "1234",
+      "role": "user",
       "name": "Roberto Cordoba",
       "skillIds": [
         1,
@@ -2267,6 +2348,9 @@
     },
     {
       "id": 28,
+      "username": "user28",
+      "password": "1234",
+      "role": "user",
       "name": "Reynaldo Sanchez",
       "skillIds": [
         1,
@@ -2295,6 +2379,9 @@
     },
     {
       "id": 29,
+      "username": "user29",
+      "password": "1234",
+      "role": "user",
       "name": "Cicelio Barrantes",
       "skillIds": [
         1,
@@ -2325,6 +2412,9 @@
     },
     {
       "id": 30,
+      "username": "user30",
+      "password": "1234",
+      "role": "user",
       "name": "Valentin Flores",
       "skillIds": [
         1,
@@ -2358,6 +2448,9 @@
     },
     {
       "id": 31,
+      "username": "user31",
+      "password": "1234",
+      "role": "user",
       "name": "Oscar Diaz",
       "skillIds": [
         1,
@@ -2383,6 +2476,9 @@
     },
     {
       "id": 32,
+      "username": "user32",
+      "password": "1234",
+      "role": "user",
       "name": "William Campos",
       "skillIds": [
         1,
@@ -2414,6 +2510,9 @@
     },
     {
       "id": 33,
+      "username": "user33",
+      "password": "1234",
+      "role": "user",
       "name": "Orlando Chavarria",
       "skillIds": [
         1,
@@ -2445,6 +2544,9 @@
     },
     {
       "id": 34,
+      "username": "user34",
+      "password": "1234",
+      "role": "user",
       "name": "Humberto Quiros",
       "skillIds": [
         1,
@@ -2476,6 +2578,9 @@
     },
     {
       "id": 35,
+      "username": "user35",
+      "password": "1234",
+      "role": "user",
       "name": "Wendy Saborio",
       "skillIds": [
         1,
@@ -2507,6 +2612,9 @@
     },
     {
       "id": 36,
+      "username": "user36",
+      "password": "1234",
+      "role": "user",
       "name": "Miguel Jimenez",
       "skillIds": [
         1,
@@ -2537,6 +2645,9 @@
     },
     {
       "id": 37,
+      "username": "user37",
+      "password": "1234",
+      "role": "user",
       "name": "Adriana Chavarria",
       "skillIds": [
         5,
@@ -2561,6 +2672,9 @@
     },
     {
       "id": 38,
+      "username": "user38",
+      "password": "1234",
+      "role": "user",
       "name": "Max Figueroa",
       "skillIds": [
         2,
@@ -2588,6 +2702,9 @@
     },
     {
       "id": 39,
+      "username": "user39",
+      "password": "1234",
+      "role": "user",
       "name": "Jason Mendez",
       "skillIds": [
         1,
@@ -2619,6 +2736,9 @@
     },
     {
       "id": 40,
+      "username": "user40",
+      "password": "1234",
+      "role": "user",
       "name": "Raquel Gomez",
       "skillIds": [
         1,
@@ -2647,6 +2767,14 @@
         37,
         38
       ]
+    },
+    {
+      "id": 41,
+      "username": "admin",
+      "password": "1234",
+      "role": "admin",
+      "name": "Administrator",
+      "skillIds": []
     }
   ]
 }
