@@ -85,7 +85,10 @@
     <div class="section">
       <div class="header-row">
         <div>
-          <h2>Employees</h2>
+          <h2>
+            Employees 
+            <span class="count-badge">({{ filteredEmployees().length }})</span>
+          </h2>
           <p class="tab-subtitle">All internal employees and their skills</p>
         </div>
         <button
@@ -133,7 +136,7 @@
           <!-- Avatar -->
           <img
             class="tab-avatar"
-            src="https://i.pravatar.cc/150?u={{ emp.id }}"
+            src="images/avatar-default.png"
             alt="avatar" />
 
           <!-- Info -->
@@ -173,7 +176,10 @@
       <!-- Header -->
       <div class="header-row">
         <div>
-          <h2>Job Positions</h2>
+          <h2>
+            Job Positions 
+            <span class="count-badge">({{ filteredJobs().length }})</span>
+          </h2>
           <p class="subtitle">Open and internal job roles</p>
         </div>
 
