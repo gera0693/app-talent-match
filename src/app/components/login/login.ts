@@ -25,7 +25,7 @@ import { Router } from '@angular/router';
     <div class="login-wrapper">
       <mat-card class="login-card">
 
-        <h2 class="title">Talent Match Login</h2>
+        <h2 class="title">Login</h2>
 
         <mat-form-field appearance="outline" class="full-width">
           <mat-label>Username</mat-label>
@@ -66,7 +66,7 @@ import { Router } from '@angular/router';
           <small>
             <strong>Demo accounts:</strong><br />
             admin / 1234<br />
-            user / 1234
+            esteban.fonseca / 1234
           </small>
         </div>
 
